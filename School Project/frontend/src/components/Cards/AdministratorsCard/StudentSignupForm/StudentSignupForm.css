@@ -1,0 +1,68 @@
+/* StudentSignupForm.css */
+
+.navigation-container {
+    display: flex;
+  }
+  
+  .left-navigation {
+    flex: 1;
+    background-color: #f0f0f0; /* Set background color for left navigation */
+    width: 100vw; 
+    height: 100vh;/* Make the left navigation span the entire left side */
+  }
+  
+  .navigation-content {
+    flex: 3;
+    padding: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .left-navigation ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-navigation li {
+    margin-bottom: 10px;
+  }
+  
+  .left-navigation li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .left-navigation li a.selected {
+    background-color: #007bff; /* Set background color for selected item */
+    color: #fff;
+  }

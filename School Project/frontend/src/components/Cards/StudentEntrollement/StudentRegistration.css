@@ -1,0 +1,29 @@
+/* StudentRegistration.css */
+
+.form-container {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 80vh; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    width: calc(100% - 20px); /* Adjust width to accommodate padding */
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .form-button {
+    display: block;
+    margin-top: 20px;
+  }
+  

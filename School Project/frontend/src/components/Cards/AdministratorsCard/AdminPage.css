@@ -1,0 +1,35 @@
+/* AdminPage.css */
+.navigation-container {
+  display: flex;
+}
+
+.left-navigation {
+  flex: 1; /* Take up remaining space */
+}
+
+.left-navigation ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+.left-navigation ul li {
+  margin-bottom: 10px; /* Add margin between list items */
+}
+
+.left-navigation ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Set link color */
+  display: block; /* Make links block elements */
+  padding: 5px 0; /* Add padding to links */
+}
+
+.left-navigation ul li a:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+.navigation-content {
+  flex: 3; /* Take up majority of space */
+  padding: 20px; /* Add padding */
+}
+
+/* Add additional styles as needed */

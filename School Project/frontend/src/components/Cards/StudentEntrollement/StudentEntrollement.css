@@ -1,0 +1,65 @@
+/* StudentEntrollement.css */
+
+/* Container */
+.student-registration-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Heading */
+  .student-registration-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form labels */
+  .student-registration-label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Input fields */
+  .student-registration-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Textarea */
+  .student-registration-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Select dropdown */
+  .student-registration-select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit button */
+  .student-registration-button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .student-registration-button:hover {
+    background-color: #0056b3;
+  }
+  
